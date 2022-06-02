@@ -1,8 +1,7 @@
-#film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
-#film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.
+--film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
+--film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız.
 select title, description from film
 where length > 60 and length < 75
-
 --rental_rate 0.99 VE replacement_cost 12.99 VEYA 28.99 olma koşullarıyla sıralayınız.
 select * from film 
 where rental_rate = 0.99 and replacement_cost= 12.99 or replacement_cost = 28.99 ;
